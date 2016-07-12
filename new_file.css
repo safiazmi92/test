@@ -1,0 +1,82 @@
+#contrner{
+	width: 900px;
+	background-color: white;
+	margin:auto;
+}
+
+/*header*/
+
+header{
+	height: 100px;
+	background-color: gray;
+	width: 100%;!important
+}
+
+
+
+
+#search{
+	
+	padding-top: 7px;
+    margin-left: 19px;
+    height: 19px;
+    
+}
+
+#search input{
+	height: 18px;
+}
+#search img{
+	float: left;
+}
+
+#logo{
+	float: right;
+	
+	}
+
+#list{
+	float: right;
+	list-style-type: none;
+}
+
+header  nav  ul li{
+	float: right;
+	margin-left: 32px;
+	text-align: center;
+	
+}
+header nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+header  nav  ul{
+	padding-top: 34px;
+}
+
+/*part tow*/
+
+#second{
+	margin-top: 25px;
+}
+
+
+
+.samllcontener{
+	width: 33.3333%;
+	height: 386px;
+    float: right;
+}
+.backgroundimgsamllc{
+	width: 291px,
+}
+
+#clearfix{
+	overflow: hidden;
+	clear: both;
+}
+
+#1{
+	background-image: url('images/1908364606615453350.JPG' )
+}
