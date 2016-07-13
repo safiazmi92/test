@@ -4,12 +4,22 @@
 	margin:auto;
 }
 
+#backup{
+	height: 100px;
+	background-color: gray;
+	width: 100%;
+}
+
 /*header*/
 
 header{
 	height: 100px;
 	background-color: gray;
-	width: 100%;!important
+	width: 100%;
+float: none;
+    margin-top: -100px;
+
+
 }
 
 
@@ -68,15 +78,54 @@ header  nav  ul{
 	height: 386px;
     float: right;
 }
-.backgroundimgsamllc{
-	width: 291px,
+
+#backimage{
+	background-image: url('images/1908364606615453350.JPG');
+height: 354px;
+    width: 291px;
+
+
 }
 
-#clearfix{
-	overflow: hidden;
-	clear: both;
+#backimage2{
+	background-image: url('images/Picture-046410251500.jpg');
+height: 354px;
+    width: 291px;
+}
+ 
+#backimage3{
+	background-image: url('images/פזקר_-291_354410564000.jpg'); 
+height: 354px;
+    width: 291px;
 }
 
-#1{
-	background-image: url('images/1908364606615453350.JPG' )
+#backct{
+	background-image: url('images/hp_tab_text_bg.png');
+height: 97px;
+    width: 248px;
+    float: right;
+    direction: rtl;
+    margin-top: 248px;
+    margin-right: 12px;
+    color: white;
+}
+.tt{
+	font-size: 16px;
+    margin: 7px;
+}
+.pp{
+	float: right;
+    margin-top: -23px;
+    margin-right: 8px;
+    font-size: 14px;
+}
+#ts{
+	    float: left;
+    margin-top: -24px;
+    text-decoration: underline;
+    margin-left: 7px
+}
+
+#ts img{
+	margin-right: 3px;
 }
