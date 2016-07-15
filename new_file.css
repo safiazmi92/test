@@ -1,8 +1,11 @@
+body{
+	margin: 0px;
+}
 #contrner{
 	width: 900px;
 	background-color: white;
 	margin:auto;
-	height: 740px;
+	height: 745px;
 }
 
 #backup{
@@ -53,13 +56,21 @@ float: none;
 
 header  nav  ul li{
 	float: right;
-	margin-left: 32px;
+	margin-left: 15px;
 	text-align: center;
+	border-left: 1px solid white;
 	
 }
+
+header  nav  ul li:last-child{
+	border-left: none;
+	
+}
+
 header nav ul li a{
 	text-decoration: none;
 	color: white;
+	margin-left: 11px;
 }
 
 header  nav  ul{
@@ -86,19 +97,21 @@ header  nav  ul{
 height: 354px;
     width: 291px;
 
-
+border-bottom-right-radius: 20px;
 }
 
 #backimage2{
 	background-image: url('images/Picture-046410251500.jpg');
 height: 354px;
     width: 291px;
+border-bottom-right-radius: 20px;
 }
  
 #backimage3{
 	background-image: url('images/פזקר_-291_354410564000.jpg'); 
 height: 354px;
     width: 291px;
+border-bottom-right-radius: 20px;
 }
 
 #backct{
@@ -135,7 +148,7 @@ height: 97px;
 /*the thered part*/
 
 #thered{
-	height: 205px;
+	height: 250px;
 }
 
 .s3{
@@ -200,4 +213,37 @@ width: 292px;
 
 .imt nav ul li img{
 	margin-right: 8px;
+}
+/*footer*/
+footer{
+	height: 52px;
+    background-color: gray;
+    color: white;
+}
+
+footer nav ul{
+	list-style-type: none;
+    float: right;
+    direction: rtl;
+}
+
+footer nav ul li{
+	display: inline-block;
+	border-left: 1px solid #fff;
+    padding-left: 5px;
+}
+
+footer nav ul li:last-child{
+	border-left: none;
+	
+}
+footer nav ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+#backfotter{
+	width: 100%;
+	background-color: gray;
+	height: 52px;
 }
