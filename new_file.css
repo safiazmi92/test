@@ -2,6 +2,7 @@
 	width: 900px;
 	background-color: white;
 	margin:auto;
+	height: 740px;
 }
 
 #backup{
@@ -69,6 +70,7 @@ header  nav  ul{
 
 #second{
 	margin-top: 25px;
+	height: 370px;
 }
 
 
@@ -128,4 +130,74 @@ height: 97px;
 
 #ts img{
 	margin-right: 3px;
+}
+
+/*the thered part*/
+
+#thered{
+	height: 205px;
+}
+
+.s3{
+	width: 33.3333%;
+height: 169px;
+    float: right;
+}
+
+
+.backim{
+	background-image: url('images/small_cube_bg.png');
+width: 292px;
+    float: left;
+    height: 216px;
+
+}
+
+
+.topt{
+	    direction: rtl;
+    float: right;
+    margin-top: 14px;
+    margin-right: 24px;
+}
+
+.imp{
+	float: right;
+    margin-top: 16px;
+    margin-right: 23px;
+}
+
+.imp2{
+	height: 133px;
+    float: left;
+    margin-top: 36px;
+    margin-left: 3px;
+}
+.imt{
+	float: left;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+
+.imt{
+	text-decoration: underline;
+}
+
+.imt img{
+	margin-right: 5px;
+}
+
+
+
+.imt nav{
+	float: right;
+    margin-left: 90px;
+}
+
+.imt nav ul{
+	list-style-type: none;
+}
+
+.imt nav ul li img{
+	margin-right: 8px;
 }
