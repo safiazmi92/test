@@ -1,0 +1,95 @@
+
+@media only screen and (max-width:600px){
+
+	
+	body{
+	width: 100%;
+}
+	#contrner{
+	width: 100%;
+	background-color: white;
+	}
+	
+	header{
+	
+	width: 100%;
+height: 10%;
+
+
+}
+	#search{
+		width: 20%;
+	}
+	
+	#search img{
+		display: none;
+	}
+
+div #logo{
+	direction: rtl;
+}
+
+#logo img{
+	width: 70%;
+}
+
+#list{
+	height: 200%;
+	background-color: gray;
+}
+
+header  nav  ul li{
+	width: 100%;
+	text-align: center;
+	height: 12.5%;
+	border-left: none;
+}
+
+header  nav  ul li div:first-child{
+	background-image: url('images/menu_home.png');
+width: 34px;
+    height: 15px;
+   
+    background-position: -16px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#second{
+	margin-top: 0px;
+	
+	width: 100%;
+}
+
+.samllcontener{
+	width: 100%;
+	
+    
+}
+
+
+#backimage{
+	background-image: url('images/1908364606615453350.JPG');
+	background-repeat:no-repeat;
+height:100%;
+    width: 100%;
+}
+
+#backimage2{
+		background-image: url('images/Picture-046410251500.jpg');
+		background-repeat:no-repeat;
+	height:100%;
+    width: 100%;
+}
+
+#backimage3{
+		background-image: url('images/פזקר_-291_354410564000.jpg'); 
+		background-repeat:no-repeat;
+	height:100%;
+    width: 100%;
+}
+
+
+}
