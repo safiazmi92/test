@@ -34,11 +34,15 @@ float: none;
 	padding-top: 7px;
     margin-left: 19px;
     height: 19px;
+        color: white;
     
 }
 
+
 #search input{
 	height: 18px;
+	margin-right: 10px;
+	direction: rtl;
 }
 #search img{
 	float: left;
@@ -62,8 +66,13 @@ header  nav  ul li{
 	
 }
 
-header  nav  ul li:first-child{
+header  nav  ul li div:first-child{
 	background-image: url('images/menu_home.png');
+width: 34px;
+    height: 15px;
+    margin-left: 9px;
+    background-position: -16px;
+    background-repeat: no-repeat;
 }
 
 header  nav  ul li:last-child{
@@ -153,6 +162,7 @@ height: 97px;
 
 #thered{
 	height: 250px;
+	color:gray;
 }
 
 .s3{
@@ -215,6 +225,10 @@ width: 292px;
 	list-style-type: none;
 }
 
+.imt nav ul li a{
+	color: gray;
+}
+
 .imt nav ul li img{
 	margin-right: 8px;
 }
@@ -251,3 +265,17 @@ footer nav ul li a{
 	background-color: gray;
 	height: 52px;
 }
+
+#fbacki{
+	background-image: url('images/white_logo.png');
+
+    width: 150px;
+    height: 20px;
+}
+
+footer div{
+	float: left;
+    margin-top: 18px;
+}
+
+
