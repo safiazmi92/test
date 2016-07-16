@@ -251,9 +251,9 @@ footer nav ul li{
     padding-left: 5px;
 }
 
-footer nav ul li:last-child{
+
+	footer nav ul li:last-child{
 	border-left: none;
-	
 }
 footer nav ul li a{
 	text-decoration: none;

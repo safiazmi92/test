@@ -18,13 +18,11 @@ height: 10%;
 
 }
 	#search{
-		width: 20%;
+		max-width: 100%;
+		height: auto;
 	}
 	
-	#search img{
-		display: none;
-	}
-
+	
 div #logo{
 	direction: rtl;
 }
@@ -58,13 +56,13 @@ width: 34px;
 
 
 #second{
-	margin-top: 0px;
-	
-	width: 100%;
+	margin-top: 45%;
+    width: 100%;
+    height: 155%;
 }
 
 .samllcontener{
-	width: 100%;
+	width: 94%;
 	
     
 }
@@ -73,23 +71,66 @@ width: 34px;
 #backimage{
 	background-image: url('images/1908364606615453350.JPG');
 	background-repeat:no-repeat;
-height:100%;
-    width: 100%;
+margin: 0 auto;
+  
 }
 
 #backimage2{
 		background-image: url('images/Picture-046410251500.jpg');
 		background-repeat:no-repeat;
-	height:100%;
-    width: 100%;
+	margin: 0 auto;
 }
 
 #backimage3{
 		background-image: url('images/פזקר_-291_354410564000.jpg'); 
 		background-repeat:no-repeat;
-	height:100%;
-    width: 100%;
+	margin: 0 auto;
+}
+
+#backct{
+	background-image: url('images/hp_tab_text_bg.png');
+
+   
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.s3{
+	width: 100%;
+	height: 100%;
+
+}
+
+.backim{
+	background-image: url('images/small_cube_bg.png');
+background-repeat:no-repeat;
+	margin: 0 auto;
+float: none;
 }
 
 
+footer{
+	float: right;
+    height: 40%;
+}
+
+
+  footer nav ul li{
+	text-align:center;
+	border-left: none;
+	width: 100%;
+	height: 7%;
+   border-bottom-style: solid;
+   
+}  
+
+footer nav ul li:last-child{
+	border-bottom-style: none;
+}
+
+#backfotter{
+	display: none;
 }
